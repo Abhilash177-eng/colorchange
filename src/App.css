@@ -1,38 +1,85 @@
-.App {
-  text-align: center;
+
+.select {
+  width: 450px;
+  margin-top: 10px;
+  margin-left: 34%;
+  margin-top: 6%;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+body {
+  background-color:wheat;
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.colorContainer{
+ width: 40%;
+ height: 40%;
+ position: absolute;
+ margin-top: 10%;
+ background-color: brown;
+ margin-left: 29%;
 }
 
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.title{
+  margin-left:40%;
+  font-size:30px;
 }
 
-.App-link {
-  color: #61dafb;
+@media only screen and (max-width: 450px) {
+
+  .colorContainer{
+    width: 61%;
+    height: 40%;
+    position: absolute;
+    margin-top: 10%;
+    background-color: brown;
+    margin-left: 21%;
+   }
+
+   
+.select {
+  width: 300px;
+  margin-top: 10px;
+  margin-left: 12%;
+  margin-top: 6%;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.select:focus{
+  outline: none;
+  border-color: none;
+}
+
+.title{
+  margin-left:14%;
+  font-size:30px;
+}
+
+}
+
+@media only screen and (min-width:451px) and (max-width:1000px) {
+
+  .colorContainer{
+    width: 61%;
+    height: 40%;
+    position: absolute;
+    margin-top: 10%;
+    background-color: brown;
+    margin-left: 19%;
+   }
+
+   
+.select {
+  width: 400px;
+  margin-top: 10px;
+  margin-left: 18%;
+  margin-top: 6%;
+}
+
+
+
+.title{
+  margin-left:18%;
+  font-size:40px;
+}
+
+
 }
